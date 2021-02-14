@@ -1,0 +1,220 @@
+
+
+#page
+{   
+  
+    border: solid 4px  #00b2ee;
+    margin: auto;
+
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+    block-size:95%;
+    inline-size: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url(image/interface.png);  
+    background-repeat:no-repeat;
+    background-size:100% 98%;
+    background-position: center;
+    
+    margin:auto;
+
+
+}
+#init{
+    border: #efa424 1px solid;
+    background: rgba(92, 207, 46, 0.6);
+
+    width: 80%;
+    height: 60%;
+    margin-top: 10%;
+}
+
+#contenu{
+    margin: auto;
+border: #bbea00 4px solid;
+    margin-top:5%;
+    margin-bottom: 5%;
+
+    block-size:60%;
+    inline-size: 80%;
+
+    display:inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.navigation{
+        width:20%; /* taille du boutton*/
+        height: 10%;
+        line-height:2em;
+        text-align:center;
+        font-size: 1.8em;
+        vertical-align:middle;
+        margin-top: 25%;
+    
+    /* mise de la forme du boutton*/
+        -moz-border-radius:10px;
+        -webkit-border-radius:10px;
+        border-radius:10px;
+        background-image:radial-gradient(white, rgb(81, 146, 50));
+    
+        color:rgb(20, 3, 3); /* coulour du texte*/
+        text-decoration:none;
+        }
+.navigation a:hover {
+            
+          
+            background: linear-gradient( 
+            #ccc6c3 0%,
+            #c195f3 24%,
+            #6617c0 41%,
+            #baa7f0 100%); /* W3C */
+          
+        }
+
+
+
+#page6
+{  
+    border: solid 4px  #00b2ee;
+    margin: auto;
+
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+    block-size:95%;
+    inline-size: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url(image/interface.png);  
+    background-repeat:no-repeat;
+    background-size:100% 98%;
+    background-position: center;
+    
+    margin:auto;
+
+}
+#nheader {
+    background-image: url('image/img.jpg');
+    background-color:rgb(115, 17, 128) ;
+    text-align: center;
+    padding:1vw;
+    
+    } 
+
+h1 {       
+     color: rgba(243, 242, 243, 0.904);        
+    }
+h5
+    { color: rgba(243, 242, 243, 0.904); }
+
+h2  
+    {  direction: rtl;      }
+
+
+.btn
+{
+    display:block;
+    font-size: 1.5em;
+    font-weight: lighter;
+    color: #333;
+    padding: 1.5% 1%;
+    background: rgba(233, 218, 12, 0.6);
+
+    background: #ffd17f;
+
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 8px #efa424;
+    margin-top: 1%;
+
+
+
+    
+}
+.btn:hover
+{
+    box-shadow: 0 4px #efa424;
+    top: 2px;
+}
+.btn:active{
+    box-shadow: 0 0 #efa424;
+    top:6px;
+}
+
+nav#nav1{
+    margin-top:1%;
+   
+  }
+ 
+  nav#nav1 >a
+  {
+    background: rgba(243, 237, 153, 0.6);
+    color: #000;
+    padding: 8px;
+    padding-right: 5%;
+    text-decoration: none;
+    border-radius: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    display:block;
+    box-shadow: 0 6px #2bef24;
+    cursor: pointer;
+
+
+    
+  
+  }
+  nav#nav1 >a :hover  { background: #bbea00;box-shadow: 0 4px #efa424;
+    top: 2px;  }
+  nav#nav1 >a :active { background: #eefaa8; box-shadow: 0 0 #efa424;
+    top:6px;}
+
+
+  /*  */
+
+.btn1
+{
+    display:block;
+    margin: 0.1% 0.8% 0;
+    color: rgb(46, 87, 64);
+    padding: 1% 1%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 8px #80ec41;
+    margin-top: 0.5%;
+    margin-bottom: 1%;
+
+    width: 30%; color:rgba(242, 243, 242, 0.904);
+    border-radius: 20px;
+    background-color: rgb(21, 110, 36);
+    font-size: 1.8em; 
+
+}
+.btn1:hover
+{
+    box-shadow: 0 4px #efa424;
+    top: px;
+}
+.btn1:active{
+    box-shadow: 0 0 #efa424;
+    top:6px;
+}
+#div_conteneur_bouton{
+    padding: 8%; padding-right: 20%; display:inline-flex;
+}
+.div_bouton{width: 25vw;margin-left:1%;}
